@@ -20,7 +20,7 @@ export default function App() {
     getData();
   }, []);
   return (
-    <div>
+    <div className="container">
       <h1>Getting Bored? </h1>
       <div className="myDiv">
         {data.activity ? (
